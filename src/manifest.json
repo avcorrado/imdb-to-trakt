@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "IMDb to Trakt",
+  "version": "1.0",
+  "description": "Adds a button to IMDb movie pages to add navigate to Trakt.",
+  "icons": {
+    "48": "icons/trakt-icon.png"
+  },
+  "permissions": ["activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.imdb.com/title/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["tabs.js"],
+    "persistent": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "imdb-to-trakt@yourdomain.com",
+      "strict_min_version": "64.0"
+    }
+  }
+}
