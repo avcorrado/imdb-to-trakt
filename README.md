@@ -15,13 +15,11 @@ You can download the extension from the [Firefox Add-ons store](https://addons.m
 
 The extension requires the following permissions:
 
-- `<all_urls>`: Allows the extension to access any web page, enabling it to identify IMDb movie pages and interact with them.
 - `activeTab`: Allows the extension to interact with the current tab the user is on.
 - `tabs`: Used to open new tabs for the Trakt page.
 
 ### Why These Permissions Are Needed
 
-- **`<all_urls>`**: This permission is essential for the extension to function across all IMDb movie pages.
 - **`activeTab`**: Necessary for the extension to interact with the currently active IMDb tab.
 - **`tabs`**: Required to open the Trakt page in a new tab when the user clicks the button.
 
