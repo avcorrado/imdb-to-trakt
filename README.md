@@ -9,7 +9,7 @@ This Firefox extension allows users to easily navigate from IMDb movie pages to 
 
 ## Installation
 
-You can download the extension from the [Firefox Add-ons store](link-to-your-add-on-page).
+You can download the extension from the [Firefox Add-ons store](https://addons.mozilla.org/firefox/addon/imdb-to-trakt/).
 
 ## Permissions
 
