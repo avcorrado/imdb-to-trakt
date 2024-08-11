@@ -9,7 +9,7 @@
   "permissions": ["activeTab", "tabs"],
   "content_scripts": [
     {
-      "matches": ["*://www.imdb.com/title/*"],
+      "matches": ["*://www.imdb.com/title/*", "*://web.archive.org/*"],
       "js": ["contentScript.js"]
     }
   ],

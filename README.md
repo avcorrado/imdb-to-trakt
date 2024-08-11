@@ -1,5 +1,7 @@
 # IMDb to Trakt Redirect Extension
 
+<img src="./src/icons/trakt-icon.png" alt="Letterboxd Icon" width="50" height="50">
+
 This Firefox extension allows users to easily navigate from IMDb movie pages to their corresponding pages on Trakt. When browsing a movie on IMDb, a "Trakt" button appears next to the existing "Add to Watchlist" button. Clicking this button will redirect the user to the appropriate Trakt page for the selected movie.
 
 ## Features
