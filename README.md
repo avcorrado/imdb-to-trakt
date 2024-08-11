@@ -35,6 +35,10 @@ The extension requires the following permissions:
 
 Contributions are welcome! Feel free to submit a pull request or open an issue if you have suggestions or encounter any problems.
 
+## Screenshot
+
+<img src="./screenshots/screenshot.jpg" alt="Screenshot" width="600">
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
